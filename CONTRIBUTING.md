@@ -1,4 +1,4 @@
-# Guide de Contribution - PGSTranslate
+# Guide de Contribution
 
 Merci de contribuer à **PGSTranslate** ! Ce guide vous explique comment participer au projet de manière efficace. Nous accueillons vos propositions pour ajouter ou améliorer les traductions de PRO GESTION SOFT sur ses différentes plateformes.
 

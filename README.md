@@ -1,4 +1,4 @@
-# PGSTranslate - Proposez des traductions pour PRO GESTION SOFT
+# Proposez des traductions pour PRO GESTION SOFT
 
 Bienvenue dans le dépôt **PGSTranslate**, le projet collaboratif dédié à l'amélioration et l'ajout de traductions pour **PRO GESTION SOFT**. Ce dépôt vous permet de proposer des traductions pour plusieurs plateformes et de contribuer à une meilleure accessibilité de notre solution.
 
@@ -12,14 +12,12 @@ Les traductions peuvent être proposées pour les plateformes suivantes :
 3. **Site vitrine (site d'accueil)** : Présentation et promotion de PRO GESTION SOFT.
 4. **Site de documentation** : Guide d'utilisation et API.
 
----
 
 ## 🌍 Langues supportées
 
 - **Langues existantes** : Français, Anglais.
 - **Nouvelles langues** : Vous pouvez proposer des traductions pour d'autres langues (ex. Espagnol, Allemand, Arabe, etc.).
 
----
 
 ## 🚀 Comment contribuer ?
 
