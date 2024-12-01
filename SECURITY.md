@@ -11,7 +11,7 @@ Si vous découvrez une faille de sécurité dans ce projet, nous vous encourageo
 
 Si vous pensez avoir identifié une faille de sécurité, veuillez suivre les étapes ci-dessous pour nous la signaler :
 
-1. **Contactez-nous directement** à l'adresse suivante : **[progestionsoft@gmail.com]**.  
+1. **Contactez-nous directement** à l'adresse suivante : **progestionsoft@gmail.com**.  
    Cette adresse sera changé très bientôt.
 
 2. **Incluez autant de détails que possible** dans votre rapport, notamment :
@@ -41,9 +41,10 @@ Cette politique de sécurité s'applique au dépôt **PGSTranslate** et à tout 
 - Le site vitrine (site d'accueil).
 - Le site de documentation.
 
-# Ressources Complémentaires
+# Ressources complémentaires
 
-- [Documentation](https://pgsdocs.github.io/)
+- [fr Documentation](https://pgsdocs.github.io/)
+- [en Documentation](https://pgsdocs.github.io/en/)
 
 
 ---
