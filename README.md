@@ -7,9 +7,9 @@ Bienvenue dans le dépôt **PGSTranslate**, le projet collaboratif dédié à l'
 ## 📚 Plateformes concernées
 
 Les traductions peuvent être proposées pour les plateformes suivantes :
-1. **Logiciel de gestion** : Interface utilisateur du logiciel PRO GESTION SOFT.
-2. **Site de recrutement** : Plateforme de publication d'offres d'emploi et de gestion des candidatures.
-3. **Site vitrine (site d'accueil)** : Présentation et promotion de PRO GESTION SOFT.
+1. **Le logiciel** : Interface utilisateur du logiciel PRO GESTION SOFT.
+2. **Le site de recrutement** : Plateforme de publication d'offres d'emploi.
+3. **Site vitrine (site d'accueil)** : Site de présentation et promotion de PRO GESTION SOFT.
 4. **Site de documentation** : Guide d'utilisation et API.
 
 
@@ -29,15 +29,38 @@ git clone https://github.com/ProGestionSoft/PGSTranslate.git
 ```
 
 ### 2. Identifiez la plateforme et la langue
-Naviguez dans le dossier translations pour trouver les fichiers correspondant à votre contribution :
+Naviguez dans le dossier `i18n` pour trouver les fichiers correspondant à votre contribution :
 
 ```bash
-translations/
+i18n/
 ├── software/
-├── recruitment-site/
-├── documentation-site/
-└── ...
+│  ├── fr/
+│  ├── en/
+│  └── .../
+│
+├── landing/
+│  ├── fr/
+│  ├── en/
+│  └── .../
+│
+├── hiring/
+│  ├── fr/
+│  ├── en/
+│  └── .../
+│
+├── docs/
+│  ├── fr/
+│  ├── en/
+│  └── .../
+│
 ```
+
+Selon chaque plateforme, vous pouvez être amené à naviguer dans des dossiers précis.
+Par exemple :
+- traduction des contenus de blog ou dans Documentation (vous devez vous rendre dans le plugin Blog du docssier docs/)
+- traduction de la section Profil dans le logiciel (vous devez vous rendre dans Profile dans software/)
+- etc …
+
 
 ### 3. Ajoutez ou modifiez une traduction
 Les fichiers de traduction sont au format JSON.
@@ -58,8 +81,8 @@ Une fois vos modifications terminées :
 git add .
 git commit -m "Ajout d'une traduction pour [langue] sur [plateforme]"
 git push origin <votre-branche>
-Créez une Pull Request sur GitHub pour que votre contribution soit examinée.
 ```
+Créez une Pull Request sur GitHub pour que votre contribution soit examinée.
 
 ## 🛠️ Validation automatique
 Nous utilisons GitHub Actions pour vérifier automatiquement :

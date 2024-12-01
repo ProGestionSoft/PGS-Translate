@@ -1,0 +1,70 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.COMPTE": {
+    "message": "ACCOUNT",
+    "description": "The label for category COMPTE in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.COMPTE.link.generated-index.description": {
+    "message": "--- A DEFINIR ---",
+    "description": "The generated-index page description for category COMPTE in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Authentification": {
+    "message": "Authentication",
+    "description": "The label for category Authentification in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Authentification.link.generated-index.description": {
+    "message": "Let's start by signing up or logging in.",
+    "description": "The generated-index page description for category Authentification in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Gestion de profil": {
+    "message": "Profile management",
+    "description": "The label for category Gestion de profil in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Gestion de profil.link.generated-index.description": {
+    "message": "Now that you have an account, let's set up a few details together.",
+    "description": "The generated-index page description for category Gestion de profil in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Centre de contrôle": {
+    "message": "Control center",
+    "description": "The label for category Centre de contrôle in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Centre de contrôle.link.generated-index.description": {
+    "message": "--- A DEFINIR ---",
+    "description": "The generated-index page description for category Centre de contrôle in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Modules de gestion": {
+    "message": "Management modules",
+    "description": "The label for category Modules de gestion in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Modules de gestion.link.generated-index.description": {
+    "message": "--- A DEFINIR ---",
+    "description": "The generated-index page description for category Modules de gestion in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.OPTION DE CONTACT": {
+    "message": "CONTACT OPTION",
+    "description": "The label for category OPTION DE CONTACT in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.OPTION DE CONTACT.link.generated-index.description": {
+    "message": "...",
+    "description": "The generated-index page description for category OPTION DE CONTACT in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.POUR LES CANDIDATS": {
+    "message": "FOR CANDIDATES",
+    "description": "The label for category POUR LES CANDIDATS in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.POUR LES CANDIDATS.link.generated-index.description": {
+    "message": "...",
+    "description": "The generated-index page description for category POUR LES CANDIDATS in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.POUR LES DEVELOPPEURS": {
+    "message": "FOR DEVELOPERS",
+    "description": "The label for category POUR LES DEVELOPPEURS in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.POUR LES DEVELOPPEURS.link.generated-index.description": {
+    "message": "...",
+    "description": "The generated-index page description for category POUR LES DEVELOPPEURS in sidebar tutorialSidebar"
+  }
+}

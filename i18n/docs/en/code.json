@@ -1,0 +1,646 @@
+{
+  "theme.ErrorPageContent.title": {
+    "message": "Unexpected error.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Back to top of the page",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.archive.title": {
+    "message": "Archive",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "Archive",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "Blog post list pagination",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "Newer entries",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "Older entries",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "Blog posts pagination",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "Newer post",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "Older post",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "See all tags",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "Toggle between dark and light mode (currently {mode})",
+    "description": "The ARIA label for the navbar color mode toggle"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "dark mode",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "light mode",
+    "description": "The name for the light color mode"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Breadcrumb",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "1 item|{count} items",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "Documentation pages",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "Previous",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "Next",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "One document tagged|{count} documents tagged",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} with \"{tagName}\"",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "Version: {versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "This is the documentation for the upcoming {versionLabel} version of {siteTitle}.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "This is the documentation for {siteTitle} {versionLabel}, which is no longer actively maintained.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "For up-to-date documentation, check the {latestVersionLink} ({versionLabel}).",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "latest version",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "Edit this page",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "Direct link to {heading}",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " on {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " by {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "Last updated {atDate} {byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "Versions",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.NotFound.title": {
+    "message": "Page not found",
+    "description": "The title of the 404 page"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "Tags :",
+    "description": "The label alongside a tag list"
+  },
+  "theme.admonition.caution": {
+    "message": "caution",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "danger",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "info",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "note",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "tip",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "warning",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Close",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Recent blog post navigation",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "Copied",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "Copy code",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "Copy",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Toggle word wrap",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "Expand sidebar category '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "Collapse sidebar category '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "Main",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Languages",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.NotFound.p1": {
+    "message": "This page may have been deleted or permanently moved.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "Check that you have entered the correct url adress, or conctact support to repport the error",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "On this page",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Read more",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "Learn more about {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "One minute read|{readingTime} minutes read",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Home page",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Collapse sidebar",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Collapse sidebar",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Docs sidebar",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "Close sidebar",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Back to main menu",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Open/close navigation bar",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Expand sidebar",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Expand sidebar",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.SearchBar.noResultsText": {
+    "message": "No results"
+  },
+  "theme.SearchBar.seeAllOutsideContext": {
+    "message": "See all results without \"{context}\""
+  },
+  "theme.SearchBar.searchInContext": {
+    "message": "See all results with \"{context}\""
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "See all results"
+  },
+  "theme.SearchBar.label": {
+    "message": "Search",
+    "description": "The ARIA label and placeholder for search button"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "See all results for \"{query}\"",
+    "description": "The search page title for non-empty query"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "Search for the file",
+    "description": "The search page title for empty query"
+  },
+  "theme.SearchPage.searchContext.everywhere": {
+    "message": "Everywhere"
+  },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "1 file found|{count} files found",
+    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "No file found",
+    "description": "The paragraph for empty search result"
+  },
+  "theme.blog.post.plurals": {
+    "message": "One post|{count} posts",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} tagged with \"{tagName}\"",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "Authors",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "See all authors",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "Unlisted Page",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "This page is unlisted. Search engines will not index it, and only users with a direct link can access it.",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "Draft page",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "This page is a draft. It will only be visible in dev mode and will be excluded from the production build.",
+    "description": "The draft content banner message"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "Try again",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "Skip to main content",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "Tags",
+    "description": "The title of the tag list page"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "This author has not written any posts yet.",
+    "description": "The text for authors with 0 blog post"
+  },
+  "Idx-PageTitle": {
+    "message": "Home",
+    "description": "Le Titre de la page Index dans le Head"
+  },
+  "Idx-HeroImg": {
+    "message": "Business management illustration",
+    "description": "Illustration de Hero sur Index"
+  },
+  "Idx-HeroTitle": {
+    "message": "{term1} management, creativity, and ambitions {term2}.",
+    "description": "Le titre de Hero sur Index"
+  },
+  "term1": {
+    "message": "Connect"
+  },
+  "term2": {
+    "message": "with ease"
+  },
+  "Idx-HeroSubtitle": {
+    "message": "Organize your priorities, optimize your actions, and design impactful projects to advance your career with clarity.",
+    "description": "Le sous-titre de Hero sur Index"
+  },
+  "Idx-IntroBtn": {
+    "message": "Getting started",
+    "description": "Le bouton Introduction"
+  },
+  "Idx-TryBtn": {
+    "message": "Try for free",
+    "description": "Le bouton Essayez gratuitement"
+  },
+  "Idx-IntroTitle": {
+    "message": "Learn, develop, succeed",
+    "description": "Le titre de Intro sur Index"
+  },
+  "Idx-IntroSubtitle": {
+    "message": "Discover detailed guides to master your tools, integrate solutions, and achieve your professional goals.",
+    "description": "Le sous-titre de Intro sur Index"
+  },
+  "Idx-IntroCpnTitle1": {
+    "message": "Operational management",
+    "description": "Titre de IntroCard1"
+  },
+  "Idx-IntroCpnDetail1": {
+    "message": "This documentation is designed for users looking to master the daily management of their operations. Discover practical guides on managing emails, human resources, company documents, billing, and more.",
+    "description": "Detail de IntroCard1"
+  },
+  "Idx-IntroCpnTitle2": {
+    "message": "Develop and integrate",
+    "description": "Titre de IntroCard2"
+  },
+  "Idx-IntroCpnDetail2": {
+    "message": "Access a comprehensive documentation dedicated to developers, allowing you to connect third-party services, explore our APIs, and integrate advanced features into your existing solutions. Optimize your systems with tools designed for flexibility and efficiency.",
+    "description": "Detail de IntroCard2"
+  },
+  "Idx-IntroCpnTitle3": {
+    "message": "Your next opportunity",
+    "description": "Titre de IntroCard3"
+  },
+  "Idx-IntroCpnDetail3": {
+    "message": "Explore a vast network of companies offering various positions. Get advice on how to apply effectively and increase your chances of securing a job that matches your ambitions.",
+    "description": "Detail de IntroCard3"
+  },
+  "Idx-UserTitle": {
+    "message": "Your guide to efficiency",
+    "description": "Le titre de User sur Index"
+  },
+  "Idx-UserSubtitle": {
+    "message": "Solve everyday management challenges with solutions tailored to each profession.",
+    "description": "Le sous-titre de User sur Index"
+  },
+  "Idx-UserCpnTitle1": {
+    "message": "Designed for SMEs managers",
+    "description": "Titre de UserCard1"
+  },
+  "Idx-UserCpnDetail1": {
+    "message": "With its comprehensive human resource management, performance tracking, and document management features, this documentation helps SME managers simplify and optimize employee management from recruitment to payroll, while centralizing data for efficient business management.",
+    "description": "Detail de UserCard1"
+  },
+  "Idx-UserCpnTitle2": {
+    "message": "Adapted for developers",
+    "description": "Titre de UserCard2"
+  },
+  "Idx-UserCpnDetail2": {
+    "message": "With detailed guides on APIs and third-party integrations, this documentation provides developers with the necessary tools to customize, extend, and easily connect the platform's features to existing systems, facilitating integration and adaptation to specific technical needs.",
+    "description": "Detail de UserCard2"
+  },
+  "Idx-UserCpnTitle3": {
+    "message": "For job seekers and candidates",
+    "description": "Titre de UserCard3"
+  },
+  "Idx-UserCpnDetail3": {
+    "message": "This documentation provides candidates with comprehensive information on the recruitment process, from online tests to submitting applications. It explains how to use tools to apply effectively and track job opportunities offered by companies.",
+    "description": "Detail de UserCard3"
+  },
+  "Idx-UserImg": {
+    "message": "Business management illustration",
+    "description": "Illustration de  de User sur Index"
+  },
+  "Idx-DocsTitle": {
+    "message": "Read the documentation",
+    "description": "Le titre de Docs sur Index"
+  },
+  "Idx-DocsCpnTitle1": {
+    "message": "Authentication",
+    "description": "Titre de DocsCard1"
+  },
+  "Idx-DocsCpnDetail1": {
+    "message": "Create an account or log in. Registration is quick and easy.",
+    "description": "Detail de DocsCard1"
+  },
+  "Idx-DocsCpnTitle2": {
+    "message": "Add a collaborator",
+    "description": "Titre de DocsCard2"
+  },
+  "Idx-DocsCpnDetail2": {
+    "message": "Easily invite team members to Pro Gestion Soft to collaborate and share responsibilities. You can assign roles to each collaborator, granting access to the sections they need to contribute effectively.",
+    "description": "Detail de DocsCard2"
+  },
+  "Idx-DocsCpnTitle3": {
+    "message": "Delete your account",
+    "description": "Titre de DocsCard3"
+  },
+  "Idx-DocsCpnDetail3": {
+    "message": "If you decide to stop using Pro Gestion Soft, you can permanently delete your account. This action is irreversible and will remove all your data from our system. Make sure to back up important information before proceeding.",
+    "description": "Detail de DocsCard3"
+  },
+  "Idx-DocsCpnTitle4": {
+    "message": "Verify your account",
+    "description": "Titre de DocsCard4"
+  },
+  "Idx-DocsCpnDetail4": {
+    "message": "To ensure the security of your account, we will send a verification email after registration. Click on the link in the email to verify your address. This step is essential to activate your account and ensure secure access.",
+    "description": "Detail de DocsCard4"
+  },
+  "Idx-DocsCpnTitle5": {
+    "message": "Add an email",
+    "description": "Titre de DocsCard5"
+  },
+  "Idx-DocsCpnDetail5": {
+    "message": "To enhance security and communication, you can add an additional email address to your account. This feature allows you to receive important notifications and improve account recovery if needed.",
+    "description": "Detail de DocsCard5"
+  },
+  "Idx-DocsCpnTitle6": {
+    "message": "Manage applications",
+    "description": "Titre de DocsCard6"
+  },
+  "Idx-DocsCpnDetail6": {
+    "message": "Simplify your recruitment process by tracking and managing applications directly on Pro Gestion Soft. Post job openings, evaluate candidates, and follow every step of the recruitment process. Access CVs and evaluation notes to make informed decisions.",
+    "description": "Detail de DocsCard6"
+  },
+  "Idx-DocsLink": {
+    "message": "Read more",
+    "description": "Le lien Lire plu de Docs"
+  },
+  "Idx-HelpCpnTitleTicket": {
+    "message": "Technical ticket",
+    "description": "Titre de HelpCard Ticket"
+  },
+  "Idx-HelpCpnDetailTicket": {
+    "message": "You can create a ticket if you already have an account. It's a great way to formally track your requests.",
+    "description": "Detail de HelpCard Ticket"
+  },
+  "Idx-HelpCpnLinkTicket": {
+    "message": "Create a ticket",
+    "description": "Lien de HelpCard Ticket"
+  },
+  "Idx-HelpCpnTitleForm": {
+    "message": "Help form",
+    "description": "Titre de HelpCard Formulaire"
+  },
+  "Idx-HelpCpnDetailForm": {
+    "message": "Fill out our contact form to ask any questions.",
+    "description": "Detail de HelpCard Formulaire"
+  },
+  "Idx-HelpCpnLinkForm": {
+    "message": "Fill the form",
+    "description": "Lien de HelpCard Formulaire"
+  },
+  "Idx-HelpCpnTitleMail": {
+    "message": "Email",
+    "description": "Titre de HelpCard Email"
+  },
+  "Idx-HelpCpnDetailMail": {
+    "message": "Contact our support team via support@progestionsoft.com for answers to your questions.",
+    "description": "Detail de HelpCard Email"
+  },
+  "Idx-HelpCpnLinkMail": {
+    "message": "Send an email",
+    "description": "Lien de HelpCard Email"
+  },
+  "Idx-HelpCpnTitleCall": {
+    "message": "Phone call",
+    "description": "Titre de HelpCard Appel"
+  },
+  "Idx-HelpCpnDetailCall": {
+    "message": "Call us directly at 2290152535380 for real-time assistance.",
+    "description": "Detail de HelpCard Appel"
+  },
+  "Idx-HelpCpnLinkCall": {
+    "message": "Call support",
+    "description": "Lien de HelpCard Appel"
+  },
+  "Idx-HelpCpnTitleWapp": {
+    "message": "WhatsApp",
+    "description": "Titre de HelpCard WhatsApp"
+  },
+  "Idx-HelpCpnDetailWapp": {
+    "message": "Contact via WhatsApp for smoother assistance.",
+    "description": "Detail de HelpCard WhatsApp"
+  },
+  "Idx-HelpCpnLinkWapp": {
+    "message": "Open WhatsApp",
+    "description": "Lien de HelpCard WhatsApp"
+  },
+  "Idx-HelpCpnTitleTgram": {
+    "message": "Telegram",
+    "description": "Titre de HelpCard Telegram"
+  },
+  "Idx-HelpCpnDetaileTgram": {
+    "message": "Contact via Telegram for smoother assistance.",
+    "description": "Detail de HelpCard Telegram"
+  },
+  "Idx-HelpCpnLinkTgram": {
+    "message": "Open Telegram",
+    "description": "Lien de HelpCard Telegram"
+  },
+  "Idx-HelpCpnTitleForum": {
+    "message": "Forum",
+    "description": "Titre de HelpCard Forum"
+  },
+  "Idx-HelpCpnDetailForum": {
+    "message": "Post your concern to the community and find a solution approach quickly.",
+    "description": "Detail de HelpCard Forum"
+  },
+  "Idx-HelpCpnLinkForum": {
+    "message": "Go to forum",
+    "description": "Lien de HelpCard Forum"
+  },
+  "Idx-HelpCpnTitleDcord": {
+    "message": "Discord",
+    "description": "Titre de HelpCard Discord"
+  },
+  "Idx-HelpCpnDetailDcord": {
+    "message": "Join our Discord server to chat with other users and exchange tips.",
+    "description": "Detail de HelpCard Discord"
+  },
+  "Idx-HelpCpnLinkDcord": {
+    "message": "Join Discord",
+    "description": "Lien de HelpCard Discord"
+  },
+  "Idx-HelpImg": {
+    "message": "Business management illustration",
+    "description": "Illustration de  de Help sur Index"
+  },
+  "Idx-HelpTitle": {
+    "message": "How can we help you?",
+    "description": "Le titre de Help sur Index"
+  },
+  "Idx-HelpSubtitle": {
+    "message": "Explore our support options to get the assistance you need.",
+    "description": "Le sous-titre de Help sur Index"
+  },
+  "Idx-HelpTabAll": {
+    "message": "All channels",
+    "description": "Le titre de l'onglet Tous les canaux"
+  },
+  "Idx-HelpTabTec": {
+    "message": "Technical support",
+    "description": "Le titre de l'onglet Support technique"
+  },
+  "Idx-HelpTabDirect": {
+    "message": "Direct contact",
+    "description": "Le titre de l'onglet Contact direct"
+  },
+  "Idx-HelpTabChat": {
+    "message": "Social chat",
+    "description": "Le titre de l'onglet Chat social"
+  },
+  "Idx-HelpTabComty": {
+    "message": "Community",
+    "description": "Le titre de l'onglet Communauté"
+  },
+  "Idx-HelpBtnLess": {
+    "message": "See less",
+    "description": "Le bouton Voir moins de HelpSection"
+  },
+  "Idx-HelpBtnMore": {
+    "message": "See more",
+    "description": "Le bouton Voir plus de HelpSection"
+  },
+  "theme.Playground.result": {
+    "message": "Result",
+    "description": "The result label of the live codeblocks"
+  },
+  "theme.Playground.liveEditor": {
+    "message": "Live Editor",
+    "description": "The live editor label of the live codeblocks"
+  }
+}

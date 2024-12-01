@@ -14,7 +14,7 @@ Clonez votre dépôt localement pour y apporter des modifications :
 
 ```bash
 git clone https://github.com/<votre-utilisateur>/PGSTranslate.git
-cd PGSTranslate
+cd i18n
 ```
 
 ### 3. Créez une nouvelle branche
@@ -28,11 +28,27 @@ git checkout -b ajout-traduction-[langue]-[plateforme]
 Naviguez dans le répertoire translations pour trouver les fichiers correspondant à la plateforme et à la langue que vous souhaitez modifier. Exemple pour le logiciel :
 
 ```bash
-translations/
+i18n/
 ├── software/
-│   ├── en.json
-│   ├── fr.json
-│   └── es.json
+│  ├── fr/
+│  ├── en/
+│  └── .../
+│
+├── landing/
+│  ├── fr/
+│  ├── en/
+│  └── .../
+│
+├── hiring/
+│  ├── fr/
+│  ├── en/
+│  └── .../
+│
+├── docs/
+│  ├── fr/
+│  ├── en/
+│  └── .../
+│
 ```
 
 ***Format attendu des fichiers JSON***
@@ -41,6 +57,7 @@ translations/
 
 Exemple :
 ```bash
+json
 {
     "welcome_message": "Bienvenue sur PRO GESTION SOFT !",
     "login_button": "Se connecter"
@@ -52,7 +69,7 @@ Assurez-vous que vos modifications respectent le format JSON :
 
 ```bash
 npm install -g jsonlint
-jsonlint translations/software/fr.json
+jsonlint i18n/[path]/[file.json]
 ```
 
 ### 6. Soumettez une Pull Request

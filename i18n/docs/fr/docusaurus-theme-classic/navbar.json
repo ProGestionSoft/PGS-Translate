@@ -1,0 +1,54 @@
+{
+  "title": {
+    "message": "PGS Docs",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Docs": {
+    "message": "Docs",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.Pour les candidats": {
+    "message": "Pour les candidats",
+    "description": "Navbar item with label Pour les candidats"
+  },
+  "item.label.Pour les développeurs": {
+    "message": "Pour les développeurs",
+    "description": "Navbar item with label Pour les développeurs"
+  },
+  "item.label.Checker les offres": {
+    "message": "Checker les offres",
+    "description": "Navbar item with label Checker les offres"
+  },
+  "item.label.Comment postuler": {
+    "message": "Comment postuler",
+    "description": "Navbar item with label Comment postuler"
+  },
+  "item.label.A propos des  tests en ligne": {
+    "message": "A propos des  tests en ligne",
+    "description": "Navbar item with label A propos des  tests en ligne"
+  },
+  "item.label.Iframe dans PGSThèque": {
+    "message": "Iframe dans PGSThèque",
+    "description": "Navbar item with label Iframe dans PGSThèque"
+  },
+  "item.label.Intégrer un site web statique": {
+    "message": "Intégrer un site web statique",
+    "description": "Navbar item with label Intégrer un site web statique"
+  },
+  "item.label.API référence": {
+    "message": "API référence",
+    "description": "Navbar item with label PGS API"
+  },
+  "item.label.Playground": {
+    "message": "Playground",
+    "description": "Navbar item with label Playground"
+  }
+}
